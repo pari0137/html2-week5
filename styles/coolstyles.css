@@ -112,3 +112,23 @@ label{
 	font-size:24px;
 	border-radius:10px;
 }
+
+.shapes{
+	display: flex;
+	justify-content: space-evenly;
+}
+
+.shape1{
+	width:60px;
+	height:60px;
+	background: lightblue;
+}
+
+.shape1:nth-child(2){
+	transform:rotate(45deg);
+}
+
+.shape1:nth-child(3){
+	transform:scale(0.5);
+	/* FOR SCAREL, 1 IS THE DEFAULT SIZE*/
+}
