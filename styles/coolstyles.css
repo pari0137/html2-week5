@@ -126,9 +126,22 @@ label{
 
 .shape1:nth-child(2){
 	transform:rotate(45deg);
+	transition: all 2s;
+}
+
+.shape1:nth-child(2):hover{
+	transform: rotate(360deg);
 }
 
 .shape1:nth-child(3){
 	transform:scale(0.5);
 	/* FOR SCAREL, 1 IS THE DEFAULT SIZE*/
+}
+
+.shape1:nth-child(4){
+	transform:skew(20deg, 10deg);
+}
+
+.shape1:nth-child(5){
+	transform:rotate(30deg) scale(0.8) skew(5deg, 10deg);
 }
